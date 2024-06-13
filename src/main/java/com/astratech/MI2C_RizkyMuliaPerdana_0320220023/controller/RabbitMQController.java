@@ -12,7 +12,7 @@ public class RabbitMQController {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private static final String  routingKey = "AnisatulQueue";
+    private static final String  routingKey = "RizkyQueue";
     private static final String  routingKey2 = "AkbarQueue";
 
     private static final String exchange = "polmanExternalExchange";
